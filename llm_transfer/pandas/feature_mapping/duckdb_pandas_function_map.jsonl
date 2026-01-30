@@ -1,0 +1,257 @@
+{"sql": {"index": 1, "Feature": ["first(A)"]}, "python": {"Feature": ["DataFrame.head"], "index": 57}}
+{"sql": {"index": 3, "Feature": ["octet_length(bitstring)"]}, "python": {"Feature": ["Series.nbytes"], "index": 803}}
+{"sql": {"index": 11, "Feature": ["decode(blob)"]}, "python": {"Feature": ["Series.str.decode"], "index": 666}}
+{"sql": {"index": 12, "Feature": ["encode(string)"]}, "python": {"Feature": ["Series.str.encode"], "index": 667}}
+{"sql": {"index": 15, "Feature": ["octet_length(blob)"]}, "python": {"Feature": ["Series.nbytes"], "index": 803}}
+{"sql": {"index": 17, "Feature": ["current_date"]}, "python": {"Feature": ["Timestamp.today"], "index": 468}}
+{"sql": {"index": 19, "Feature": ["date_diff(part, startdate, enddate)"]}, "python": {"Feature": ["Series.diff"], "index": 835}}
+{"sql": {"index": 23, "Feature": ["date_diff"]}, "python": {"Feature": ["Series.diff"], "index": 835}}
+{"sql": {"index": 28, "Feature": ["dayname(date)"]}, "python": {"Feature": ["Series.dt.day_name"], "index": 646}}
+{"sql": {"index": 30, "Feature": ["greatest(date, date)"]}, "python": {"Feature": ["Timestamp.max"], "index": 413}}
+{"sql": {"index": 35, "Feature": ["bitstring_agg(arg)"]}, "python": {"Feature": ["DataFrame.agg"], "index": 123}}
+{"sql": {"index": 37, "Feature": ["monthname(date)"]}, "python": {"Feature": ["Series.dt.month_name"], "index": 645}}
+{"sql": {"index": 38, "Feature": ["strftime(date, format)"]}, "python": {"Feature": ["Series.dt.strftime"], "index": 641}}
+{"sql": {"index": 41, "Feature": ["today()"]}, "python": {"Feature": ["Timestamp.today"], "index": 468}}
+{"sql": {"index": 46, "Feature": ["bool_and(arg)"]}, "python": {"Feature": ["DataFrame.all"], "index": 130}}
+{"sql": {"index": 48, "Feature": ["day(date)"]}, "python": {"Feature": ["Timestamp.day"], "index": 449}}
+{"sql": {"index": 50, "Feature": ["dayofweek(date)"]}, "python": {"Feature": ["Series.dt.dayofweek"], "index": 613}}
+{"sql": {"index": 51, "Feature": ["dayofyear(date)"]}, "python": {"Feature": ["Period.dayofyear"], "index": 298}}
+{"sql": {"index": 55, "Feature": ["hour(date)"]}, "python": {"Feature": ["Timestamp.hour"], "index": 324}}
+{"sql": {"index": 56, "Feature": ["isodow(date)"]}, "python": {"Feature": ["Timestamp.isoweekday"],  "index": 450}}
+{"sql": {"index": 58, "Feature": ["isoyear(date)"]}, "python": {"Feature": ["Timestamp.isocalendar"],  "index": 447}}
+{"sql": {"index": 59, "Feature": ["microsecond(date)"]}, "python": {"Feature": ["Timestamp.microsecond"],  "index": 419}}
+{"sql": {"index": 62, "Feature": ["minute(date)"]}, "python": {"Feature": ["Series.dt.minute"],  "index": 609}}
+{"sql": {"index": 63, "Feature": ["month(date)"]}, "python": {"Feature": ["Timestamp.month"],  "index": 422}}
+{"sql": {"index": 64, "Feature": ["quarter(date)"]}, "python": {"Feature": ["Timestamp.quarter"],  "index": 424}}
+{"sql": {"index": 65, "Feature": ["second(date)"]}, "python": {"Feature": ["Timestamp.second"],  "index": 426}}
+{"sql": {"index": 68, "Feature": ["count(*)"]}, "python": {"Feature": ["DataFrame.count"],  "index": 136}}
+{"sql": {"index": 71, "Feature": ["weekday(date)"]}, "python": {"Feature": ["Series.dt.weekday"],  "index": 617}}
+{"sql": {"index": 72, "Feature": ["weekofyear(date)"]}, "python": {"Feature": ["Timestamp.weekofyear"],  "index": 433}}
+{"sql": {"index": 73, "Feature": ["year(date)"]}, "python": {"Feature": ["Timestamp.year"],  "index": 434}}
+{"sql": {"index": 76, "Feature": ["enum_first(enum)"]}, "python": {"Feature": ["Series.item"],  "index": 777}}
+{"sql": {"index": 79, "Feature": ["count(arg)"]}, "python": {"Feature": ["Series.count"],  "index": 828}}
+{"sql": {"index": 90, "Feature": ["favg(arg)"]}, "python": {"Feature": ["DataFrame.mean"],  "index": 149}}
+{"sql": {"index": 98, "Feature": ["array_apply"]}, "python": {"Feature": ["DataFrame.apply"],  "index": 118}}
+{"sql": {"index": 99, "Feature": ["filter"]}, "python": {"Feature": ["DataFrame.loc"],  "index": 76}}
+{"sql": {"index": 110, "Feature": ["list_extract"]}, "python": {"Feature": ["DataFrame.loc"],  "index": 76}}
+{"sql": {"index": 112, "Feature": ["argMax(arg, val)"]}, "python": {"Feature": ["Series.argmax"],  "index": 568}}
+{"sql": {"index": 117, "Feature": ["flatten(list_of_lists)"]}, "python": {"Feature": ["Series.list.flatten"],  "index": 741}}
+{"sql": {"index": 118, "Feature": ["array_length"]}, "python": {"Feature": ["Series.list.len"],  "index": 742}}
+{"sql": {"index": 119, "Feature": ["array_aggr"]}, "python": {"Feature": ["DataFrame.agg"],  "index": 123}}
+{"sql": {"index": 123, "Feature": ["array_has"]}, "python": {"Feature": ["DataFrame.isin"],  "index": 87}}
+{"sql": {"index": 128, "Feature": ["array_distinct"]}, "python": {"Feature": ["Series.unique"],  "index": 515}}
+{"sql": {"index": 129, "Feature": ["list_inner_product"]}, "python": {"Feature": ["DataFrame.dot"],  "index": 99}}
+{"sql": {"index": 130, "Feature": ["list_negative_inner_product"]}, "python": {"Feature": ["DataFrame.dot"],  "index": 99}}
+{"sql": {"index": 131, "Feature": ["array_extract"]}, "python": {"Feature": ["DataFrame.loc"],  "index": 76}}
+{"sql": {"index": 132, "Feature": ["filter"]}, "python": {"Feature": ["DataFrame.loc"],  "index": 76}}
+{"sql": {"index": 135, "Feature": ["histogram(arg)"]}, "python": {"Feature": ["DataFrame.hist"],  "index": 847}}
+{"sql": {"index": 136, "Feature": ["array_has_any"]}, "python": {"Feature": ["DataFrame.isin"],  "index": 87}}
+{"sql": {"index": 144, "Feature": ["array_select"]}, "python": {"Feature": ["Series.iloc"],  "index": 738}}
+{"sql": {"index": 146, "Feature": ["last(arg)"]}, "python": {"Feature": ["DataFrame.tail"],  "index": 84}}
+{"sql": {"index": 149, "Feature": ["array_apply"]}, "python": {"Feature": ["DataFrame.apply"],  "index": 118}}
+{"sql": {"index": 150, "Feature": ["array_unique"]}, "python": {"Feature": ["Series.unique"],  "index": 515}}
+{"sql": {"index": 151, "Feature": ["list_pack"]}, "python": {"Feature": ["Series.to_list"],  "index": 671}}
+{"sql": {"index": 152, "Feature": ["array_where"]}, "python": {"Feature": ["Series.where"],  "index": 547}}
+{"sql": {"index": 154, "Feature": ["unnest(list)"]}, "python": {"Feature": ["DataFrame.explode"],  "index": 55}}
+{"sql": {"index": 168, "Feature": ["max(arg)"]}, "python": {"Feature": ["DataFrame.max"],  "index": 148}}
+{"sql": {"index": 179, "Feature": ["max(arg, n)"]}, "python": {"Feature": ["DataFrame.nlargest"],  "index": 48}}
+{"sql": {"index": 190, "Feature": ["max_by(arg, val)"]}, "python": {"Feature": ["DataFrame.nlargest"],  "index": 48}}
+{"sql": {"index": 201, "Feature": ["max_by(arg, val, n)"]}, "python": {"Feature": ["DataFrame.nlargest"],  "index": 48}}
+{"sql": {"index": 208, "Feature": ["cardinality(map)"]}, "python": {"Feature": ["DataFrame.size"],  "index": 133}}
+{"sql": {"index": 209, "Feature": ["element_at(map, key)"]}, "python": {"Feature": ["DataFrame.get"],  "index": 86}}
+{"sql": {"index": 211, "Feature": ["map_contains_entry(map, key, value)"]}, "python": {"Feature": ["DataFrame.isin"],  "index": 87}}
+{"sql": {"index": 212, "Feature": ["min(arg)"]}, "python": {"Feature": ["DataFrame.min"],  "index": 151}}
+{"sql": {"index": 213, "Feature": ["map_contains_value(map, value)"]}, "python": {"Feature": ["DataFrame.isin"],  "index": 87}}
+{"sql": {"index": 215, "Feature": ["map_extract(map, key)"]}, "python": {"Feature": ["DataFrame.get"],  "index": 86}}
+{"sql": {"index": 217, "Feature": ["map_keys(map)"]}, "python": {"Feature": ["DataFrame.keys"],  "index": 80}}
+{"sql": {"index": 221, "Feature": ["abs"]}, "python": {"Feature": ["DataFrame.abs"],  "index": 129}}
+{"sql": {"index": 222, "Feature": ["@"]}, "python": {"Feature": ["DataFrame.abs"],  "index": 129}}
+{"sql": {"index": 223, "Feature": ["argMax(arg, val, n)"]}, "python": {"Feature": ["DataFrame.nlargest"],  "index": 48}}
+{"sql": {"index": 224, "Feature": ["min(arg, n)"]}, "python": {"Feature": ["DataFrame.nsmallest"],  "index": 49}}
+{"sql": {"index": 225, "Feature": ["acos(x)"]}, "python": {"Feature": ["np.acos"],  "index": 848}}
+{"sql": {"index": 226, "Feature": ["add(x, y)"]}, "python": {"Feature": ["DataFrame.add"],  "index": 91}}
+{"sql": {"index": 227, "Feature": ["asin(x)"]}, "python": {"Feature": ["np.asin"],  "index": 849}}
+{"sql": {"index": 228, "Feature": ["atan(x)"]}, "python": {"Feature": ["np.atan"], "index": -1}}
+{"sql": {"index": 229, "Feature": ["atan2(y, x)"]}, "python": {"Feature": ["np.atan2"],  "index": -1}}
+{"sql": {"index": 231, "Feature": ["cbrt(x)"]}, "python": {"Feature": ["np.cbrt"], "index": 852}}
+{"sql": {"index": 232, "Feature": ["ceil(x)"]}, "python": {"Feature": ["np.ceil"],  "index": 853}}
+{"sql": {"index": 233, "Feature": ["ceiling(x)"]}, "python": {"Feature": ["np.ceil"],  "index": -1}}
+{"sql": {"index": 234, "Feature": ["cos(x)"]}, "python": {"Feature": ["np.cos"],  "index": -1}}
+{"sql": {"index": 235, "Feature": ["argMin(arg, val)"]}, "python": {"Feature": ["DataFrame.nsmallest"],  "index": 49}}
+{"sql": {"index": 237, "Feature": ["degrees(x)"]}, "python": {"Feature": ["np.degrees"],  "index": 867}}
+{"sql": {"index": 238, "Feature": ["divide(x, y)"]}, "python": {"Feature": ["DataFrame.floordiv"],  "index": 96}}
+{"sql": {"index": 240, "Feature": ["exp(x)"]}, "python": {"Feature": ["np.exp"],  "index": -1}}
+{"sql": {"index": 242, "Feature": ["fdiv(x, y)"]}, "python": {"Feature": ["DataFrame.div"],  "index": 94}}
+{"sql": {"index": 243, "Feature": ["floor(x)"]}, "python": {"Feature": ["np.floor"],  "index": -1}}
+{"sql": {"index": 244, "Feature": ["fmod(x, y)"]}, "python": {"Feature": ["DataFrame.mod"],  "index": 97}}
+{"sql": {"index": 246, "Feature": ["argMin(arg, val, n)"]}, "python": {"Feature": ["DataFrame.nsmallest"],  "index": 49}}
+{"sql": {"index": 247, "Feature": ["gcd(x, y)"]}, "python": {"Feature": ["np.gcd"],  "index": 868}}
+{"sql": {"index": 253, "Feature": ["lcm(x, y)"]}, "python": {"Feature": ["np.lcm"],  "index": 869}}
+{"sql": {"index": 257, "Feature": ["product(arg)"]}, "python": {"Feature": ["DataFrame.prod"],  "index": 154}}
+{"sql": {"index": 259, "Feature": ["log(x)"]}, "python": {"Feature": ["np.log"],  "index": 858}}
+{"sql": {"index": 260, "Feature": ["log10(x)"]}, "python": {"Feature": ["np.log10"],  "index": 857}}
+{"sql": {"index": 261, "Feature": ["log2(x)"]}, "python": {"Feature": ["np.log2"],  "index": 859}}
+{"sql": {"index": 262, "Feature": ["multiply(x, y)"]}, "python": {"Feature": ["DataFrame.mul"],  "index": 93}}
+{"sql": {"index": 263, "Feature": ["nextafter(x, y)"]}, "python": {"Feature": ["np.nextafter"],  "index": 871}}
+{"sql": {"index": 264, "Feature": ["pi()"]}, "python": {"Feature": ["np.pi"],  "index": 866}}
+{"sql": {"index": 265, "Feature": ["pow(x, y)"]}, "python": {"Feature": ["DataFrame.pow"],  "index": 98}}
+{"sql": {"index": 266, "Feature": ["power(x, y)"]}, "python": {"Feature": ["DataFrame.pow"],  "index": 98}}
+{"sql": {"index": 267, "Feature": ["radians(x)"]}, "python": {"Feature": ["np.radians"],  "index": 870}}
+{"sql": {"index": 270, "Feature": ["round_even(v NUMERIC, s INTEGER)"]}, "python": {"Feature": ["Series.round"],  "index": 799}}
+{"sql": {"index": 271, "Feature": ["round(v NUMERIC, s INTEGER)"]}, "python": {"Feature": ["Series.round"],  "index": 799}}
+{"sql": {"index": 273, "Feature": ["sign(x)"]}, "python": {"Feature": ["np.sign"],  "index": 860}}
+{"sql": {"index": 274, "Feature": ["signbit(x)"]}, "python": {"Feature": ["np.signbit"],  "index": 861}}
+{"sql": {"index": 275, "Feature": ["sin(x)"]}, "python": {"Feature": ["np.sin"],  "index": 862}}
+{"sql": {"index": 276, "Feature": ["sqrt(x)"]}, "python": {"Feature": ["np.sqrt"],  "index": 863}}
+{"sql": {"index": 277, "Feature": ["subtract(x, y)"]}, "python": {"Feature": ["np.subtract"],  "index": 872}}
+{"sql": {"index": 278, "Feature": ["tan(x)"]}, "python": {"Feature": ["np.tan"],  "index": 864}}
+{"sql": {"index": 279, "Feature": ["sum(arg)"]}, "python": {"Feature": ["DataFrame.sum"],  "index": 162}}
+{"sql": {"index": 280, "Feature": ["trunc(x)"]}, "python": {"Feature": ["np.trunc"],  "index": 865}}
+{"sql": {"index": 284, "Feature": ["regexp_extract(string, pattern[, group = 0][, options])"]}, "python": {"Feature": ["Series.str.extract"],  "index": 669}}
+{"sql": {"index": 285, "Feature": ["regexp_extract(string, pattern, name_list[, options])"]}, "python": {"Feature": ["Series.str.extract"],  "index": 669}}
+{"sql": {"index": 286, "Feature": ["regexp_extract_all(string, regex[, group = 0][, options])"]}, "python": {"Feature": ["Series.str.extractall"],  "index": 670}}
+{"sql": {"index": 287, "Feature": ["regexp_full_match(string, regex[, options])"]}, "python": {"Feature": ["Series.str.fullmatch"],  "index": 674}}
+{"sql": {"index": 288, "Feature": ["regexp_matches(string, pattern[, options])"]}, "python": {"Feature": ["Series.str.contains"],  "index": 664}}
+{"sql": {"index": 289, "Feature": ["regexp_replace(string, pattern, replacement[, options])"]}, "python": {"Feature": ["Series.str.replace"],  "index": 690}}
+{"sql": {"index": 291, "Feature": ["regexp_split_to_array(string, regex[, options])"]}, "python": {"Feature": ["Series.str.split"],  "index": 699}}
+{"sql": {"index": 292, "Feature": ["regexp_split_to_table(string, regex[, options])"]}, "python": {"Feature": ["Series.str.split"],  "index": 699}}
+{"sql": {"index": 293, "Feature": ["struct.entry"]}, "python": {"Feature": ["Series.struct.field"],  "index": 745}}
+{"sql": {"index": 294, "Feature": ["struct[entry]"]}, "python": {"Feature": ["Series.struct.field"],  "index": 745}}
+{"sql": {"index": 295, "Feature": ["struct[idx]"]}, "python": {"Feature": ["Series.struct.field"],  "index": 745}}
+{"sql": {"index": 297, "Feature": ["struct_extract(struct, 'entry')"]}, "python": {"Feature": ["Series.struct.field"],  "index": 745}}
+{"sql": {"index": 298, "Feature": ["struct_extract(struct, idx)"]}, "python": {"Feature": ["Series.struct.field"],  "index": 745}}
+{"sql": {"index": 299, "Feature": ["struct_insert(struct, name := any, ...)"]}, "python": {"Feature": ["DataFrame.assign"],  "index": 60}}
+{"sql": {"index": 301, "Feature": ["approx_quantile(x, pos)"]}, "python": {"Feature": ["DataFrame.quantile"],  "index": 157}}
+{"sql": {"index": 302, "Feature": ["starts_with"]}, "python": {"Feature": ["Series.str.startswith"],  "index": 701}}
+{"sql": {"index": 304, "Feature": ["array_extract"]}, "python": {"Feature": ["DataFrame.loc"],  "index": 76}}
+{"sql": {"index": 305, "Feature": ["array_slice"]}, "python": {"Feature": ["Series.str.slice"],  "index": 697}}
+{"sql": {"index": 307, "Feature": ["SIMILAR TO"]}, "python": {"Feature": ["Series.str.fullmatch"],  "index": 674}}
+{"sql": {"index": 308, "Feature": ["list_extract"]}, "python": {"Feature": ["DataFrame.loc"],  "index": 76}}
+{"sql": {"index": 309, "Feature": ["array_slice(list, begin, end)"]}, "python": {"Feature": ["Series.str.slice"],  "index": 697}}
+{"sql": {"index": 311, "Feature": ["bar(x, min, max[, width])"]}, "python": {"Feature": ["Series.plot.bar"],  "index": 752}}
+{"sql": {"index": 312, "Feature": ["reservoir_quantile(x, quantile, sample_size = 8192)"]}, "python": {"Feature": ["Series.quantile"],  "index": 507}}
+{"sql": {"index": 313, "Feature": ["bit_length(string)"]}, "python": {"Feature": ["Series.str.len"],  "index": 678}}
+{"sql": {"index": 315, "Feature": ["concat_ws(separator, string, ...)"]}, "python": {"Feature": ["Series.str.cat"],  "index": 662}}
+{"sql": {"index": 316, "Feature": ["concat(string, ...)"]}, "python": {"Feature": ["Series.str.cat"],  "index": 662}}
+{"sql": {"index": 317, "Feature": ["contains(string, search_string)"]}, "python": {"Feature": ["Series.str.contains"],  "index": 664}}
+{"sql": {"index": 318, "Feature": ["suffix"]}, "python": {"Feature": ["Series.str.endswith"], "index": 668}}
+{"sql": {"index": 319, "Feature": ["format_bytes(bytes)"]}, "python": {"Feature": ["Series.nbytes"],  "index": 803}}
+{"sql": {"index": 321, "Feature": ["from_base64(string)"]}, "python": {"Feature": ["Series.str.decode"],  "index": 666}}
+{"sql": {"index": 323, "Feature": ["corr(y, x)"]}, "python": {"Feature": ["DataFrame.corr"],  "index": 134}}
+{"sql": {"index": 324, "Feature": ["hash(value)"]}, "python": {"Feature": ["api.types.is_hashable"],  "index": 411}}
+{"sql": {"index": 325, "Feature": ["ilike_escape(string, like_specifier, escape_character)"]}, "python": {"Feature": ["Series.str.fullmatch"],  "index": 674}}
+{"sql": {"index": 326, "Feature": ["instr(string, search_string)"]}, "python": {"Feature": ["Series.str.find"],  "index": 672}}
+{"sql": {"index": 330, "Feature": ["length_grapheme(string)"]}, "python": {"Feature": ["Series.str.len"],  "index": 678}}
+{"sql": {"index": 331, "Feature": ["length(string)"]}, "python": {"Feature": ["Series.str.len"],  "index": 678}}
+{"sql": {"index": 332, "Feature": ["like_escape(string, like_specifier, escape_character)"]}, "python": {"Feature": ["Series.str.fullmatch"],  "index": 674}}
+{"sql": {"index": 333, "Feature": ["lcase"]}, "python": {"Feature": ["Series.str.lower"],  "index": 680}}
+{"sql": {"index": 334, "Feature": ["arg_max_null(arg, val)"]}, "python": {"Feature": ["DataFrame.nlargest"],  "index": 48}}
+{"sql": {"index": 336, "Feature": ["lpad(string, count, character)"]}, "python": {"Feature": ["Series.str.pad"],  "index": 685}}
+{"sql": {"index": 343, "Feature": ["nfc_normalize(string)"]}, "python": {"Feature": ["Series.str.normalize"],  "index": 684}}
+{"sql": {"index": 346, "Feature": ["covar_samp(y, x)"]}, "python": {"Feature": ["DataFrame.cov"],  "index": 137}}
+{"sql": {"index": 352, "Feature": ["position(search_string IN string)"]}, "python": {"Feature": ["Series.str.find"],  "index": 672}}
+{"sql": {"index": 356, "Feature": ["regexp_extract(string, pattern[, group = 0])"]}, "python": {"Feature": ["Series.str.extractall"],  "index": 670}}
+{"sql": {"index": 358, "Feature": ["regexp_extract(string, pattern, name_list)"]}, "python": {"Feature": ["Series.str.extract"],  "index": 669}}
+{"sql": {"index": 359, "Feature": ["regexp_extract_all(string, regex[, group = 0])"]}, "python": {"Feature": ["Series.str.extractall"],  "index": 670}}
+{"sql": {"index": 360, "Feature": ["regexp_full_match(string, regex)"]}, "python": {"Feature": ["Series.str.fullmatch"],  "index": 674}}
+{"sql": {"index": 361, "Feature": ["regexp_matches(string, pattern)"]}, "python": {"Feature": ["Series.str.contains"],  "index": 664}}
+{"sql": {"index": 362, "Feature": ["regexp_replace(string, pattern, replacement)"]}, "python": {"Feature": ["Series.str.replace"],  "index": 690}}
+{"sql": {"index": 363, "Feature": ["str_split_regex"]}, "python": {"Feature": ["Series.str.split"],  "index": 699}}
+{"sql": {"index": 364, "Feature": ["regexp_split_to_table(string, regex)"]}, "python": {"Feature": ["Series.str.split"],  "index": 699}}
+{"sql": {"index": 365, "Feature": ["repeat(string, count)"]}, "python": {"Feature": ["Series.str.repeat"],  "index": 689}}
+{"sql": {"index": 366, "Feature": ["replace(string, source, target)"]}, "python": {"Feature": ["Series.str.replace"],  "index": 690}}
+{"sql": {"index": 368, "Feature": ["kurtosis_pop(x)"]}, "python": {"Feature": ["DataFrame.kurtosis"],  "index": 147}}
+{"sql": {"index": 371, "Feature": ["rpad(string, count, character)"]}, "python": {"Feature": ["Series.str.ljust"],  "index": 679}}
+{"sql": {"index": 375, "Feature": ["split_part(string, separator, index)"]}, "python": {"Feature": ["Series.str.split"],  "index": 699}}
+{"sql": {"index": 376, "Feature": ["starts_with(string, search_string)"]}, "python": {"Feature": ["Series.str.startswith"],  "index": 701}}
+{"sql": {"index": 377, "Feature": ["regexp_split_to_array"]}, "python": {"Feature": ["Series.str.split"],  "index": 699}}
+{"sql": {"index": 378, "Feature": ["string_split_regex(string, regex)"]}, "python": {"Feature": ["Series.str.split"],  "index": 699}}
+{"sql": {"index": 379, "Feature": ["kurtosis(x)"]}, "python": {"Feature": ["Series.kurt"],  "index": 838}}
+{"sql": {"index": 381, "Feature": ["strip_accents(string)"]}, "python": {"Feature": ["Series.str.translate"],  "index": 706}}
+{"sql": {"index": 383, "Feature": ["instr"]}, "python": {"Feature": ["Series.str.find"],  "index": 672}}
+{"sql": {"index": 391, "Feature": ["ucase"]}, "python": {"Feature": ["Series.str.upper"],  "index": 707}}
+{"sql": {"index": 401, "Feature": ["median(x)"]}, "python": {"Feature": ["DataFrame.median"],  "index": 150}}
+{"sql": {"index": 412, "Feature": ["mode(x)"]}, "python": {"Feature": ["DataFrame.mode"],  "index": 152}}
+{"sql": {"index": 418, "Feature": ["current_time"]}, "python": {"Feature": ["Timestamp.now"],  "index": 453}}
+{"sql": {"index": 420, "Feature": ["date_part(part, time)"]}, "python": {"Feature": ["Timestamp.minute"],  "index": 421}}
+{"sql": {"index": 423, "Feature": ["quantile_cont(x, pos)"]}, "python": {"Feature": ["Series.quantile"],  "index": 507}}
+{"sql": {"index": 424, "Feature": ["datepart(part, time)"]}, "python": {"Feature": ["Timestamp.minute"],  "index": 421}}
+{"sql": {"index": 427, "Feature": ["get_current_time()"]}, "python": {"Feature": ["Timestamp.now"],  "index": 453}}
+{"sql": {"index": 432, "Feature": ["current_timestamp"]}, "python": {"Feature": ["Timestamp.now"],  "index": 453}}
+{"sql": {"index": 434, "Feature": ["quantile_disc"]}, "python": {"Feature": ["Series.quantile"],  "index": 507}}
+{"sql": {"index": 436, "Feature": ["date_part(part, timestamp)"]}, "python": {"Feature": ["Timestamp.minute"],  "index": 421}}
+{"sql": {"index": 438, "Feature": ["date_trunc(part, timestamp)"]}, "python": {"Feature": ["Timestamp.round"],  "index": 455}}
+{"sql": {"index": 441, "Feature": ["datepart(part, timestamp)"]}, "python": {"Feature": ["Timestamp.minute"],  "index": 421}}
+{"sql": {"index": 443, "Feature": ["datetrunc(part, timestamp)"]}, "python": {"Feature": ["Timestamp.round"],  "index": 455}}
+{"sql": {"index": 444, "Feature": ["dayname(timestamp)"]}, "python": {"Feature": ["Timestamp.day_name"],  "index": 442}}
+{"sql": {"index": 445, "Feature": ["argmin(arg, val)"]}, "python": {"Feature": ["Series.argmin"],  "index": 567}}
+{"sql": {"index": 452, "Feature": ["extract(field FROM timestamp)"]}, "python": {"Feature": ["Timestamp.hour"],  "index": 324}}
+{"sql": {"index": 458, "Feature": ["least(timestamp, timestamp)"]}, "python": {"Feature": ["Timestamp.min"],  "index": 420}}
+{"sql": {"index": 461, "Feature": ["monthname(timestamp)"]}, "python": {"Feature": ["Timestamp.month_name"],  "index": 451}}
+{"sql": {"index": 462, "Feature": ["strftime(timestamp, format)"]}, "python": {"Feature": ["Timestamp.strftime"],  "index": 456}}
+{"sql": {"index": 467, "Feature": ["to_timestamp(double)"]}, "python": {"Feature": ["Timestamp.utcfromtimestamp"],  "index": 474}}
+{"sql": {"index": 473, "Feature": ["current_timestamp"]}, "python": {"Feature": ["Timestamp.now"],  "index": 453}}
+{"sql": {"index": 474, "Feature": ["get_current_timestamp()"]}, "python": {"Feature": ["Timestamp.now"],  "index": 453}}
+{"sql": {"index": 480, "Feature": ["now()"]}, "python": {"Feature": ["Timestamp.now"],  "index": 453}}
+{"sql": {"index": 490, "Feature": ["regr_r2(y, x)"]}, "python": {"Feature": ["DataFrame.corr"],  "index": 134}}
+{"sql": {"index": 492, "Feature": ["datepart(part, timestamptz)"]}, "python": {"Feature": ["Timestamp.minute"],  "index": 421}}
+{"sql": {"index": 494, "Feature": ["datetrunc(part, timestamptz)"]}, "python": {"Feature": ["Timestamp.round"],  "index": 455}}
+{"sql": {"index": 499, "Feature": ["last_day(timestamptz)"]}, "python": {"Feature": ["Timestamp.is_month_end"],  "index": 346}}
+{"sql": {"index": 500, "Feature": ["make_timestamptz(bigint, bigint, bigint, bigint, bigint, double, string)"]}, "python": {"Feature": ["Timestamp.fromordinal"],  "index": 445}}
+{"sql": {"index": 502, "Feature": ["make_timestamptz(bigint, bigint, bigint, bigint, bigint, double)"]}, "python": {"Feature": ["Timestamp.fromordinal"],  "index": 445}}
+{"sql": {"index": 503, "Feature": ["make_timestamptz(microseconds)"]}, "python": {"Feature": ["Timestamp.utcfromtimestamp"],  "index": 474}}
+{"sql": {"index": 504, "Feature": ["strftime(timestamptz, format)"]}, "python": {"Feature": ["Series.dt.strftime"],  "index": 641}}
+{"sql": {"index": 511, "Feature": ["current_localtime()"]}, "python": {"Feature": ["Timestamp.now"],  "index": 453}}
+{"sql": {"index": 512, "Feature": ["regr_sxx(y, x)"]}, "python": {"Feature": ["DataFrame.var"],  "index": 164}}
+{"sql": {"index": 513, "Feature": ["current_localtimestamp()"]}, "python": {"Feature": ["Timestamp.now"],  "index": 453}}
+{"sql": {"index": 514, "Feature": ["localtime"]}, "python": {"Feature": ["Timestamp.now"],  "index": 453}}
+{"sql": {"index": 515, "Feature": ["localtimestamp"]}, "python": {"Feature": ["Timestamp.now"],  "index": 453}}
+{"sql": {"index": 516, "Feature": ["timezone(text, timestamp)"]}, "python": {"Feature": ["Timestamp.tz_localize"],  "index": 472}}
+{"sql": {"index": 517, "Feature": ["timezone(text, timestamptz)"]}, "python": {"Feature": ["Timestamp.tz_localize"],  "index": 472}}
+{"sql": {"index": 518, "Feature": ["union.tag"]}, "python": {"Feature": ["Series.struct.field"],  "index": 745}}
+{"sql": {"index": 522, "Feature": ["alias(column)"]}, "python": {"Feature": ["Series.name"],  "index": 549}}
+{"sql": {"index": 534, "Feature": ["regr_syy(y, x)"]}, "python": {"Feature": ["DataFrame.var"],  "index": 164}}
+{"sql": {"index": 538, "Feature": ["hash(value)"]}, "python": {"Feature": ["api.types.is_hashable"],  "index": 411}}
+{"sql": {"index": 545, "Feature": ["skewness(x)"]}, "python": {"Feature": ["DataFrame.skew"],  "index": 161}}
+{"sql": {"index": 549, "Feature": ["pg_typeof(expression)"]}, "python": {"Feature": ["api.types.infer_dtype"],  "index": 375}}
+{"sql": {"index": 556, "Feature": ["argmin(arg, val, n)"]}, "python": {"Feature": ["DataFrame.nsmallest"],  "index": 49}}
+{"sql": {"index": 558, "Feature": ["stats(expression)"]}, "python": {"Feature": ["Series.describe"],  "index": 834}}
+{"sql": {"index": 560, "Feature": ["typeof(expression)"]}, "python": {"Feature": ["api.types.infer_dtype"],  "index": 375}}
+{"sql": {"index": 566, "Feature": ["dense_rank()"]}, "python": {"Feature": ["DataFrame.rank"],  "index": 158}}
+{"sql": {"index": 570, "Feature": ["last_value(expr[ IGNORE NULLS])"]}, "python": {"Feature": ["DataFrame.asof"],  "index": 65}}
+{"sql": {"index": 572, "Feature": ["nth_value(column, 2)"]}, "python": {"Feature": ["DataFrameGroupBy.nth"],  "index": 232}}
+{"sql": {"index": 574, "Feature": ["percent_rank()"]}, "python": {"Feature": ["DataFrame.rank"],  "index": 158}}
+{"sql": {"index": 575, "Feature": ["rank_dense()"]}, "python": {"Feature": ["DataFrame.rank"],  "index": 158}}
+{"sql": {"index": 576, "Feature": ["rank()"]}, "python": {"Feature": ["DataFrame.rank"],  "index": 158}}
+{"sql": {"index": 582, "Feature": ["variance(arg, val)"]}, "python": {"Feature": ["DataFrame.var"],  "index": 164}}
+{"sql": {"index": 589, "Feature": ["arg_min_null(arg, val)"]}, "python": {"Feature": ["Series.argmin"],  "index": 567}}
+{"sql": {"index": 591, "Feature": ["mean"]}, "python": {"Feature": ["DataFrame.mean"], "index": 149}}
+{"sql": {"index": 594, "Feature": ["fsum"]}, "python": {"Feature": ["DataFrame.sum"],  "index": 162}}
+{"sql": {"index": 603, "Feature": ["quantile"]}, "python": {"Feature": ["DataFrame.quantile"],  "index": 157}}
+{"sql": {"index": 611, "Feature": ["avg"]}, "python": {"Feature": ["DataFrame.mean"],  "index": 149}}
+{"sql": {"index": 612, "Feature": ["array_inner_product(array1, array2)"]}, "python": {"Feature": ["DataFrame.dot"],  "index": 99}}
+{"sql": {"index": 613, "Feature": ["array_negative_inner_product(array1, array2)"]}, "python": {"Feature": ["DataFrame.dot"],  "index": 99}}
+{"sql": {"index": 614, "Feature": ["array_dot_product(array1, array2)"]}, "python": {"Feature": ["DataFrame.dot"],  "index": 99}}
+{"sql": {"index": 615, "Feature": ["array_negative_dot_product(array1, array2)"]}, "python": {"Feature": ["DataFrame.dot"],  "index": 99}}
+{"sql": {"index": 618, "Feature": ["bit_position(substring, bitstring)"]}, "python": {"Feature": ["Series.str.find"],  "index": 672}}
+{"sql": {"index": 621, "Feature": ["length(bitstring)"]}, "python": {"Feature": ["Series.str.len"],  "index": 678}}
+{"sql": {"index": 622, "Feature": ["cast"]}, "python": {"Feature": ["DataFrame.astype"],  "index": 13}}
+{"sql": {"index": 623, "Feature": ["::"]}, "python": {"Feature": ["DataFrame.astype"],  "index": 13}}
+{"sql": {"index": 624, "Feature": ["histogram_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.hist"],  "index": 189}}
+{"sql": {"index": 625, "Feature": ["corr_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.corr"],  "index": 207}}
+{"sql": {"index": 626, "Feature": ["count_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.count"],  "index": 209}}
+{"sql": {"index": 627, "Feature": ["first_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.first"],  "index": 221}}
+{"sql": {"index": 628, "Feature": ["arg_max_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.idxmax"],  "index": 224}}
+{"sql": {"index": 629, "Feature": ["arg_min_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.idxmin"],  "index": 225}}
+{"sql": {"index": 630, "Feature": ["last_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.last"],  "index": 226}}
+{"sql": {"index": 631, "Feature": ["max_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.max"],  "index": 227}}
+{"sql": {"index": 632, "Feature": ["avg_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.mean"],  "index": 228}}
+{"sql": {"index": 633, "Feature": ["median_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.median"],  "index": 229}}
+{"sql": {"index": 634, "Feature": ["min_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.min"],  "index": 230}}
+{"sql": {"index": 635, "Feature": ["product_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.prod"],  "index": 237}}
+{"sql": {"index": 636, "Feature": ["arg_max_null_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.idxmax"],  "index": 224}}
+{"sql": {"index": 637, "Feature": ["arg_min_null_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.idxmin"],  "index": 225}}
+{"sql": {"index": 638, "Feature": ["skewness_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.skew"],  "index": 247}}
+{"sql": {"index": 639, "Feature": ["sum_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.sum"],  "index": 249}}
+{"sql": {"index": 640, "Feature": ["covar_samp_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.cov"],  "index": 210}}
+{"sql": {"index": 641, "Feature": ["regr_r2_groupby"]}, "python": {"Feature": ["DataFrameGroupBy.corr"],  "index": 207}}

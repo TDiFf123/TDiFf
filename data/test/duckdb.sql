@@ -1,0 +1,1 @@
+SELECT (t0.c0) AS c0 FROM t0 WHERE ((t0.c0)>=(t0.c0));

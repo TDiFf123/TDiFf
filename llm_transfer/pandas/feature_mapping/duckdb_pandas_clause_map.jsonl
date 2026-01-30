@@ -1,0 +1,11 @@
+{"sql": {"index": 0, "Feature": ["SELECT"]}, "python": {"Feature": ["SELECT"], "index": 7}}
+{"sql": {"index": 1, "Feature": ["JOIN"]}, "python": {"Feature": ["JOIN"], "index": 0}}
+{"sql": {"index": 5, "Feature": ["WHERE"]}, "python": {"Feature": ["WHERE"], "index": 1}}
+{"sql": {"index": 6, "Feature": ["GROUP BY"]}, "python": {"Feature": ["GROUP BY"], "index": 2}}
+{"sql": {"index": 8, "Feature": ["HAVING"]}, "python": {"Feature": ["DataFrameGroupBy.filter"], "index": 9}}
+{"sql": {"index": 9, "Feature": ["ORDER BY"]}, "python": {"Feature": ["DataFrame.sort_values"], "index": 3}}
+{"sql": {"index": 10, "Feature": ["LIMIT"]}, "python": {"Feature": ["LIMIT"], "index": 4}}
+{"sql": {"index": 11, "Feature": ["OFFSET"]}, "python": {"Feature": ["DataFrame.iloc"], "index": 6}}
+{"sql": {"index": 12, "Feature": ["SAMPLE"]}, "python": {"Feature": ["DataFrame.sample"], "index": 5}}
+{"sql": {"index": 13, "Feature": ["DISTINCT"]}, "python": {"Feature": ["DISTINCT"], "index": 8}}
+{"sql": {"index": 14, "Feature": ["UNION"]}, "python": {"Feature": ["UNION"], "index": 10}}

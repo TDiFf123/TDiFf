@@ -1,0 +1,12 @@
+{"sql": {"index": 0, "Feature": ["SELECT"]}, "python": {"Feature": ["DataFrame.select"],  "index": 0}}
+{"sql": {"index": 1, "Feature": ["JOIN"]}, "python": {"Feature": ["DataFrame.join"],  "index": 16}}
+{"sql": {"index": 3, "Feature": ["QUALIFY"]}, "python": {"Feature": ["DataFrame.filter"],  "index": 15}}
+{"sql": {"index": 5, "Feature": ["WHERE"]}, "python": {"Feature": ["DataFrame.where"],  "index": 7}}
+{"sql": {"index": 6, "Feature": ["GROUP BY"]}, "python": {"Feature": ["DataFrame.groupBy"],  "index": 14}}
+{"sql": {"index": 8, "Feature": ["HAVING"]}, "python": {"Feature": ["DataFrame.where"],  "index": 7}}
+{"sql": {"index": 9, "Feature": ["ORDER BY"]}, "python": {"Feature": ["DataFrame.orderBy"],  "index": 1}}
+{"sql": {"index": 10, "Feature": ["LIMIT"]}, "python": {"Feature": ["DataFrame.limit"],  "index": 18}}
+{"sql": {"index": 11, "Feature": ["OFFSET"]}, "python": {"Feature": ["DataFrame.offset"],  "index": 19}}
+{"sql": {"index": 12, "Feature": ["SAMPLE"]}, "python": {"Feature": ["DataFrame.sample"],  "index": 6}}
+{"sql": {"index": 13, "Feature": ["DISTINCT"]}, "python": {"Feature": ["DataFrame.distinct"],  "index": 20}}
+{"sql": {"index": 14, "Feature": ["UNION"]}, "python": {"Feature": ["DataFrame.union"],  "index": 4}}

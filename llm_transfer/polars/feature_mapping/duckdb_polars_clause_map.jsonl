@@ -1,0 +1,10 @@
+{"sql": {"index": 0, "Feature": ["SELECT"]}, "python": {"Feature": ["DataFrame.select"], "index": 0}}
+{"sql": {"index": 1, "Feature": ["JOIN"]}, "python": {"Feature": ["DataFrame.join"], "index": 2}}
+{"sql": {"index": 5, "Feature": ["WHERE"]}, "python": {"Feature": ["DataFrame.filter"], "index": 3}}
+{"sql": {"index": 6, "Feature": ["GROUP BY"]}, "python": {"Feature": ["DataFrame.group_by"], "index": 4}}
+{"sql": {"index": 8, "Feature": ["HAVING"]}, "python": {"Feature": ["DataFrame.filter"], "index": 3}}
+{"sql": {"index": 9, "Feature": ["ORDER BY"]}, "python": {"Feature": ["DataFrame.sort"], "index": 5}}
+{"sql": {"index": 10, "Feature": ["LIMIT"]}, "python": {"Feature": ["DataFrame.limit"], "index": 6}}
+{"sql": {"index": 11, "Feature": ["OFFSET"]}, "python": {"Feature": ["DataFrame.slice"], "index": 7}}
+{"sql": {"index": 13, "Feature": ["DISTINCT"]}, "python": {"Feature": ["DataFrame.unique"], "index": 1}}
+{"sql": {"index": 14, "Feature": ["UNION"]}, "python": {"Feature": ["polars.union"], "index": 8}}
