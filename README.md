@@ -83,6 +83,6 @@ python pandas/report.py \
     --out "pandas/"
 ```
 
-## 3. Tools
+## 3. Experimental Tools
 
 The `tools/` folder contains crawler tools for building feature knowledge bases (`tools/feature_knowledge_crawler`) and scripts for extracting the feature mapping table between SQL features and DataFrame APIs (`tools/rag_feature_mapping/rag_based_feature_mapping.py`).
