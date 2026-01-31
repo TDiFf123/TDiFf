@@ -72,7 +72,7 @@ python pandas/differential_testing.py \
 ```
 
 
-### (3) Bug Summury
+### (3) Bug Summary
 After conducting differential testing, use the provided `report.py` script to compare and summarize results, facilitating duplicate removal and reporting of bugs.
 
 ##### Example Usage
