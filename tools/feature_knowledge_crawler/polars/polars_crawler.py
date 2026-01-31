@@ -33,7 +33,7 @@ def polars_crawler():
         # crawl the htmls list
         html_path = os.path.join(feature_dic, "HTMLs.json")
         if os.path.exists(html_path):
-            print("File " + html_path + " exists！")
+            print("File " + html_path + " exists!")
             continue
         if (feature not in function_list):
             htmls = htmls_crawler(htmls_list[feature])

@@ -8,7 +8,7 @@ current_dir = os.path.dirname(current_file_path)
 
 function_list = ["dataframe"]
 def spark_crawler():
-    dic_path = os.path.join(current_dir, "..", "..", "FeatureKnowledgeBase", "pyspark1")
+    dic_path = os.path.join(current_dir, "..", "..", "FeatureKnowledgeBase", "pyspark")
     feature_types = ["spark_sql"] #spark_sql pandas_api datatype operator function clause datatype
     sub_dic = ["results", "results_category"]
     htmls_list = {
@@ -32,7 +32,7 @@ def spark_crawler():
         # crawl the htmls list
         html_path = os.path.join(feature_dic, "HTMLs.json")
         if os.path.exists(html_path):
-            print("File " + html_path + " exists！")
+            print("File " + html_path + " exists!")
             continue
         if (feature not in function_list):
             htmls = htmls_crawler(htmls_list[feature])
