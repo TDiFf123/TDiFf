@@ -400,12 +400,12 @@ def save_transfer_result(result_dict, output_path):
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(result_dict, f, indent=4, ensure_ascii=False, default=default_serializer)
 
-def main(db, sql, con, output_path, prompt_path, source_data_path, iteration_num, model, reasoning, method, base_url, csv_dir, api_key, tables, csv_context, dfg_host_port, feature=False, DFG=False, Explanation=True):
+def main(db, sql, con, output_path, prompt_path, source_data_path, iteration_num, model, reasoning, temperature, method, base_url, csv_dir, api_key, tables, csv_context, dfg_host_port, feature=False, DFG=False, Explanation=True):
     chat_kwargs = dict(
         model=model,
         base_url=base_url,
         api_key=api_key,
-        temperature=0,
+        temperature=temperature,
         model_kwargs={
             "response_format": {"type": "json_object"}
         },
@@ -456,17 +456,17 @@ if __name__ == "__main__":
     base_url = "https://api.openai.com/v1"
     api_key = "sk-xxxxxxxx"
 
-    data = "WHERE2"
     parser = argparse.ArgumentParser()
     parser.add_argument("--sql_input_file", default="")
     parser.add_argument("--db", default='duckdb')
     parser.add_argument("--csv_dir", default="")
-    parser.add_argument("--include_csv_context", type=str_to_bool, default=False)
-    parser.add_argument("--feature", type=str_to_bool, default=False)
-    parser.add_argument("--DFG", type=str_to_bool, default=False)
+    parser.add_argument("--include_csv_context", type=str_to_bool, default=True)
+    parser.add_argument("--feature", type=str_to_bool, default=True)
+    parser.add_argument("--DFG", type=str_to_bool, default=True)
     parser.add_argument("--Explanation", type=str_to_bool, default=False)
     parser.add_argument("--model", default=model)
     parser.add_argument("--reasoning", default="medium")
+    parser.add_argument("--temperature", default=0)
     parser.add_argument("--base_url", default=base_url)
     parser.add_argument("--api_key", default=api_key)
     parser.add_argument("--method", default="")
@@ -509,7 +509,7 @@ if __name__ == "__main__":
             continue
         print(f"Processing SQL #{i}: {sql}")
         try:
-            main(args.db, sql, con, result_path, prompt_path, source_data_path, args.iteration_num, model, args.reasoning, args.method, base_url, args.csv_dir, args.api_key, tables, csv_context, args.dfg_host_port, feature=args.feature, DFG=args.DFG, Explanation=args.Explanation)
+            main(args.db, sql, con, result_path, prompt_path, source_data_path, args.iteration_num, model, args.reasoning, args.temperature, args.method, base_url, args.csv_dir, args.api_key, tables, csv_context, args.dfg_host_port, feature=args.feature, DFG=args.DFG, Explanation=args.Explanation)
         except Exception as e:
             print(e)
             continue
