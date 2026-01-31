@@ -23,11 +23,11 @@ TDiFf utilizes the provided `llm_transfer.py` script to transfer SQL query state
 | `--outer_result_dir` | Path to save transfer results. | 
 | `--feature` | Enable **Feature Knowledge** (default: True). | 
 | `--DFG` | Enable **Data Flow Graph** (default: True). | 
-| `--model` | LLM Model used for transfer (default: gpt-5-mini-2025-08-07). | 
+| `--model` | LLM model used for transfer (default: gpt-5-mini-2025-08-07). | 
 | `--reasoning` | Reasoning effort parameter for LLM (default: medium). | 
 | `--temperature` | Temperature parameter for LLM (default: 0). | 
 | `--base_url` | Base URL path for LLM API (default: https://api.openai.com/v1). | 
-| `--api_key` | API Key for LLM API. | 
+| `--api_key` | API key for LLM API. | 
 | `--dfg_host_port` | Path to call the dot-to-ascii process. | 
 
 
