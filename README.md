@@ -1,8 +1,8 @@
 # TDiFf: Detecting Bugs in DataFrame Systems via Transferred DBMS Test Cases
 
 ## 1. Experimental Environment
-Before this experiment, it is required to install the environments for each of the three DataFrame categories (Pandas-compatible, PySpark, and Polars). 
-Their installation dependencies are provided in the respective `environment/` folders.
+Before conducting the experiment, the environments for the three DataFrame categories (Pandas-compatible, PySpark, and Polars) must be installed.
+The installation dependencies for each category are provided in the corresponding `environment/` folders.
 
 ##### Example Usage
 ```shell
